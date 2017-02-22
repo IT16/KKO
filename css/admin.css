@@ -1,0 +1,92 @@
+div.content table{
+	width : 100%;
+}
+
+div.content table tr td{
+	width : 33%;
+}
+
+div#box-kas{
+	margin-top : 15px;
+	width : auto;
+}
+
+div#box-kas .box-header{
+	padding : 10px;
+	background-color : #2980B9;
+	color : #FFFFFF;
+	text-shadow : 0px 1px #000000;
+	font-weight : bold;
+	padding-left : 15px;
+}
+
+div#box-kas .box-content{
+	padding : 15px;
+	background-color : #3498DB;
+	font-size : 1.75em;
+	text-align : center;
+}
+
+div#box-tabungan{
+	margin-top : 15px;
+	width : auto;
+}
+
+div#box-tabungan .box-header{
+	padding : 10px;
+	background-color : #27AE60;
+	color : #FFFFFF;
+	text-shadow : 0px 1px #000000;
+	font-weight : bold;
+	padding-left : 15px;
+}
+
+div#box-tabungan .box-content{
+	padding : 15px;
+	background-color : #2ECC71;
+	font-size : 1.75em;
+	text-align : center;
+}
+
+div#box-pengeluaran{
+	margin-top : 15px;
+	width : auto;
+}
+
+div#box-pengeluaran .box-header{
+	padding : 10px;
+	background-color : #C0392B;
+	color : #FFFFFF;
+	text-shadow : 0px 1px #000000;
+	font-weight : bold;
+	padding-left : 15px;
+}
+
+div#box-pengeluaran .box-content{
+	padding : 15px;
+	background-color : #E74C3C;
+	font-size : 1.75em;
+	text-align : center;
+}
+
+div#box-histori{
+	margin-top : 15px;
+	width : auto;
+}
+
+div#box-histori .box-header{
+	padding : 10px;
+	background-color : #3E4651;
+	color : #FFFFFF;
+	text-shadow : 0px 1px #000000;
+	font-weight : bold;
+	padding-left : 15px;
+}
+
+div#box-histori .box-content{
+	height : auto;
+	padding : 15px;
+	background-color : #FFFFFF;
+	font-size : 1.75em;
+	text-align : center;
+}

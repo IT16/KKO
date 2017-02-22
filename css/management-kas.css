@@ -1,0 +1,83 @@
+div.content #tagihan-table{
+  width: 100%;
+  height: auto;
+  padding-top: 10;
+  margin: 0 auto;
+}
+
+div.content #tagihan-table .tt-box-header{
+  font-size: 1.60em;
+  background-color: #2980B9;
+  color: #FFFFFF;
+  border: 1px solid #2980B9;
+  margin: 0 auto;
+  padding: 4;
+  text-align: center;
+  text-shadow : 1px 1px #000000;
+}
+
+div.content #tagihan-table .tt-box-content{
+  width: 100%;
+  height: auto;
+}
+
+div.content #tagihan-table .tt-box-content table{
+  border-collapse: collapse;
+  width: 100%;
+}
+
+div.content #tagihan-table .tt-box-content table tr:nth-child(odd){
+  background-color: rgba(37, 115, 167,.2);
+}
+
+div.content #tagihan-table .tt-box-content table td{
+  border: 1px solid rgb(37, 115, 167);
+}
+
+div.content #tagihan-table .tt-box-content table tr th{
+  width: auto;
+  height: 0 auto;
+  background-color: rgb(37, 115, 167);
+  color: white;
+}
+
+div.content #tagihan-table .tt-box-content table tr td form{
+  margin: 5;
+}
+
+div.content #tagihan-table .tt-box-content table tr td table.conten-action tr:nth-child(odd){
+	background: rgba(76, 175, 80, 0);
+}
+
+div.content #tagihan-table .tt-box-content table tr td table.conten-action tr td{
+	border: 0;
+}
+
+div.content #tagihan-table .tt-box-content table tr td table.conten-action tr td input[type=submit]{
+  width: 95%;
+  height: 0 auto;
+  margin: 2;
+  background-color: #2573A7;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+div.content #tagihan-table .tt-box-content table tr td table.conten-action tr td input[type=submit]:hover{
+  background-color: #123A54;
+  font-weight: bold;
+}
+
+div.content #tagihan-table .tt-box-content table tr td table.conten-action tr td input[type=text]{
+  width: 95%;
+  height: 0 auto;
+  padding: 5;
+  background-color: #2573A7;
+  color: white;
+  border: none;
+}
+
+div.content #tagihan-table .tt-box-content table tr td table.conten-action tr td input[type=text]:hover{
+  background-color: #123A54;
+  font-weight: bold;
+}

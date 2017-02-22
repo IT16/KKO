@@ -1,0 +1,283 @@
+div.content button#btn-popup{
+  width: 25%;
+  height: auto;
+  padding: 3px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border: 3px solid #27AE60;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #27AE60;
+  color: #FFFFFF;
+  text-shadow : 1px 1px #000000;
+}
+
+div.content button#btn-popup:hover{
+  border: 3px solid #2FD072;
+  background-color:  #2FD072;
+}
+
+div#content-new{
+  width : 100%;
+  height : auto;
+}
+
+div#content-new p.header {
+  background-color: #27AE60;
+  font-size: 1.50em;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+div#content-new form{
+  width: 100%;
+  height: auto;
+  background-color: #BDC3C7;
+}
+
+div#content-new form table.holder{
+  padding: 5px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+div#content-new form table.holder tr td{
+  width: 20%;
+}
+div#content-new form table.holder tr td span{
+  float : right;
+  font-weight: bold;
+  font-size: 1.20em;
+}
+
+div#content-new form table.holder tr td input[type="text"]{
+  width: 100%;
+  padding: 3px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+div#content-new form table.holder tr td select{
+  width: 100%;
+  padding: 3px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+div#content-new form table.holder tr td input[type="text"]:hover{
+  border: 3px solid #555;
+}
+
+div#content-new form table.holder tr td input[type="text"]:focus{
+  border: 3px solid #000000;
+  background-color: #ACECC7;
+  color : #000000;
+  font-weight: bold;
+}
+
+div#content-new form table.holder tr td select:hover{
+  border: 3px solid #555;
+}
+
+div#content-new form table.holder tr td select:focus{
+  border: 3px solid #000000;
+  background-color: #ACECC7;
+  color : #000000;
+  font-weight: bold;
+}
+
+div#content-new p.footer {
+  background-color: #27AE60;
+  font-size: 1.50em;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 10px;
+}
+
+div#content-new p.footer table{
+  width: 100%;
+  height: auto;
+}
+
+div#content-new p.footer table tr td{
+  width : 33%;
+}
+
+div#content-new p.footer table tr td button.btn-tambah{
+  width: 100%;
+  height: auto;
+  padding: 3px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #27AE60;
+}
+
+div#content-new p.footer table tr td button.btn-tambah:hover{
+  border: 3px solid #FFFFFF;
+  background-color:  #2FD072;
+}
+
+div#content-new p.footer table tr td input[type=reset]{
+  width: 100%;
+  height: auto;
+  padding: 3px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #27AE60;
+}
+
+div#content-new p.footer table tr td input[type=reset]:hover{
+  border: 3px solid #FFFFFF;
+  background-color:  #2FD072;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+div.content #detail-user{
+  width: 100%;
+  height: auto;
+  padding-top: 10;
+  margin: 0 auto;
+}
+
+div.content #detail-user .du-box-header{
+  font-size: 1.60em;
+  background-color: #27AE60;
+  color: #FFFFFF;
+  border: 1px solid #27AE60;
+  margin: 0 auto;
+  padding: 4;
+  text-align: center;
+  text-shadow : 1px 1px #000000;
+}
+
+div.content #detail-user .du-box-content{
+  width: 100%;
+  height: auto;
+}
+
+div.content #detail-user .du-box-content table{
+  border-collapse: collapse;
+  width: 100%;
+}
+
+div.content #detail-user .du-box-content table tr:nth-child(odd){
+  background-color: rgba(33, 145, 80,.2);
+}
+
+div.content #detail-user .du-box-content table td{
+  border: 1px solid rgb(33, 145, 80);
+}
+
+div.content #detail-user .du-box-content table tr th{
+  width: auto;
+  height: 0 auto;
+  background-color: rgb(33, 145, 80);
+  color: white;
+}
+
+div.content #detail-user .du-box-content table tr td form{
+  margin: 5;
+}
+
+div.content #detail-user .du-box-content table tr td input[type=submit]{
+  width: 40%;
+  padding:3;
+  margin: 5;
+  height: 0 auto;
+  background-color: #219150;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+div.content #detail-user .du-box-content table tr td input[type=submit]:hover{
+  background-color: #13532E;
+  font-weight: bold;
+}
